@@ -1,0 +1,53 @@
+Origin: PDUSB
+Label: USB PC source
+Codename: bionic
+Architectures: arm64 amd64
+Components: main
+UDebComponents: main
+Description: Utils packages from PDUSB
+SignWith: F420E5874B26943C
+
+Origin: PDUSB
+Label: USB PC source
+Codename: focal
+Architectures: arm64 amd64 riscv64
+Components: main
+UDebComponents: main
+Description: Utils packages from PDUSB
+SignWith: F420E5874B26943C
+
+Origin: PDUSB
+Label: USB PC source
+Codename: jammy
+Architectures: arm64 amd64 riscv64
+Components: main
+UDebComponents: main
+Description: Utils packages from PDUSB
+SignWith: F420E5874B26943C
+
+Origin: PDUSB
+Label: USB PC source
+Codename: bookworm
+Architectures: arm64 amd64 riscv64
+Components: main
+UDebComponents: main
+Description: Utils packages from PDUSB
+SignWith: F420E5874B26943C
+
+Origin: PDUSB
+Label: USB PC source
+Codename: bullseye
+Architectures: arm64 amd64 
+Components: main
+UDebComponents: main
+Description: Utils packages from PDUSB
+SignWith: F420E5874B26943C
+
+Origin: PDUSB
+Label: USB PC source
+Codename: buster
+Architectures: arm64 amd64 
+Components: main
+UDebComponents: main
+Description: Utils packages from PDUSB
+SignWith: F420E5874B26943C

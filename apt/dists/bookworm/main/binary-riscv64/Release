@@ -1,0 +1,5 @@
+Component: main
+Origin: PDUSB
+Label: USB PC source
+Architecture: riscv64
+Description: Utils packages from PDUSB

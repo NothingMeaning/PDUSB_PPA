@@ -1,0 +1,48 @@
+Package: pdusb-usb-networking
+Version: 0.0.4jammy1
+Architecture: all
+Maintainer: PDUSB <dev_pad@163.com>
+Installed-Size: 25
+Depends: network-manager
+Breaks: mobian-tweaks-common (<< 0.5.2~)
+Replaces: mobian-tweaks-common (<< 0.5.2~)
+Homepage: https://www.pdusb.com
+Priority: optional
+Section: network
+Filename: pool/main/p/pdusb-usb-networking/pdusb-usb-networking_0.0.4jammy1_all.deb
+Size: 4588
+SHA256: 42bf0850486360fecd8fd3c295d6b181876aa814f8f873c6ca11d8150d30f165
+SHA1: feef33fac10ce45b24174ef23740239db003b530
+MD5sum: a39cd43542eec9566ee247df4842bb5e
+Description: Default USB networking configuration for mobile devices
+ This package provides configuration files and scripts for setting up
+ networking using USB gadget on mobile devices.
+
+Package: wsdd
+Version: 2:0.7.0-2.1jammy1
+Architecture: all
+Maintainer: Matthew Grant <matt@mattgrant.net.nz>
+Installed-Size: 112
+Depends: python3 (>= 3.6)
+Homepage: https://github.com/christgau/wsdd
+Priority: optional
+Section: net
+Filename: pool/main/w/wsdd/wsdd_0.7.0-2.1jammy1_all.deb
+Size: 34316
+SHA256: 50cf9a7da102b2995839c9beb60246455744b64df134e7c5aa1ce5976991d70d
+SHA1: 6a23b0cba9baf8eaebbf53f0d3c0f001fec41944
+MD5sum: d61196f2bdf5b18e282fc3516becb0cb
+Description: Python Web Services Discovery Daemon, Windows Net Browsing
+ This daemon is used to announce Linux Hosts to Windows 7+ computers for
+ use in their File Manager network browsing, by using the Windows
+ Services Discovery Protocol.
+ .
+ This protocol is a local network segment procotol, which is multicasted
+ on udp/3072, and incoming on tcp/5357 on the 239.255.255.250/ff02::c
+ multicast addresses.  It DOES have security issues, but it is designed
+ for use in a trusted environment inside a firewall.
+ .
+ Its quite useful for Samba, taking over from WINS and the Samba nmbd
+ daemon.  Installing this restores the Network browsing functionality to
+ Windows 7+ Samba clients.
+

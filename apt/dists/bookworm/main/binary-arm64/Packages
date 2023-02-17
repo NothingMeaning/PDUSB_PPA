@@ -1,0 +1,196 @@
+Package: android-tools-adbd
+Source: android-tools
+Version: 5.1.1.r38-1.1bookworm1
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 150
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.34), libssl3 (>= 3.0.0)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-adbd_5.1.1.r38-1.1bookworm1_arm64.deb
+Size: 51292
+SHA256: bfbcac055cbdabb9a794ee244a65e7d78639793759fdd541537255726d0b6349
+SHA1: a8e4d9a892cda536eb5c34739758d15421f66aa8
+MD5sum: 34790c0fa326ed9b886ffca8f60bb4b1
+Description: Android Debug Bridge daemon
+ Android Debug Bridge (adb) is a versatile tool that lets you manage the state
+ of an emulator instance or Android-powered device. It is a client-server
+ program that includes three components:
+ .
+ A client, which runs on your development machine. You can invoke a
+ client from a shell by issuing an adb command. Other Android tools such
+ as the ADT plugin and DDMS also create adb clients.
+ .
+ A server, which runs as a background process on your development
+ machine.  The server manages communication between the client and the
+ adb daemon running on an emulator or device.
+ .
+ A daemon, which runs as a background process on each emulator or device
+ instance.
+ .
+ This package provides the daemon component.
+
+Package: android-tools-adbd-dbgsym
+Source: android-tools
+Version: 5.1.1.r38-1.1bookworm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 209
+Depends: android-tools-adbd (= 5.1.1.r38-1.1bookworm1)
+Priority: optional
+Section: debug
+Filename: pool/main/a/android-tools/android-tools-adbd-dbgsym_5.1.1.r38-1.1bookworm1_arm64.deb
+Size: 180568
+SHA256: 611a3d39d949030df3774d4cecb0ec0401735b3af6182243d9854e0f55e811db
+SHA1: dfb16c5a7c6843038f5e88fc724291bb2baaf79e
+MD5sum: 80e1b9285a5bd20840022e96987b3a9c
+Description: debug symbols for android-tools-adbd
+Build-Ids: fe15dfe9a9dbb87910e36ea427a03a1be2032b99
+
+Package: android-tools-fsutils
+Source: android-tools
+Version: 5.1.1.r38-1.1bookworm1
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 493
+Depends: libc6 (>= 2.34), libpcre3, zlib1g (>= 1:1.2.3.4)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-fsutils_5.1.1.r38-1.1bookworm1_arm64.deb
+Size: 66088
+SHA256: caea9a0f3b8f464fb653539cbdd92ecd484fa28682e228cba32bf3bbcc588120
+SHA1: f858fc42bf0bab2fc42cf0d534eb84994e6fbfa9
+MD5sum: 6166c8d396a1cd4c3e1f62b68ba92783
+Description: Android ext4 utilities with sparse support
+ Android images (.img) are typically ext4 filesystems in a special
+ sparse file format.  These are tools to help make that format.
+ .
+ This package provides the utilities to deal with Android sparse ext4
+ images.
+
+Package: android-tools-fsutils-dbgsym
+Source: android-tools
+Version: 5.1.1.r38-1.1bookworm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 484
+Depends: android-tools-fsutils (= 5.1.1.r38-1.1bookworm1)
+Priority: optional
+Section: debug
+Filename: pool/main/a/android-tools/android-tools-fsutils-dbgsym_5.1.1.r38-1.1bookworm1_arm64.deb
+Size: 390224
+SHA256: 9a2ad9b44cf725b837f0a24b2fb46ac98f59bf443733e90b8a69ce8889d08451
+SHA1: baba4294f49aaf7ce2821621131526b035e1a4bc
+MD5sum: 477c01b3231a8ac296c09e0a2a607463
+Description: debug symbols for android-tools-fsutils
+Build-Ids: 2ff6246c195fc13114eb1e9047f640ea18f06efb 48f1d4a531de0e0c0ad20b88f5670ec7efd33211 77dfa5f09f80cab503865c5f9e14fc011cf3d323 8f0a5860d98b402bf1f3f9997b926e913b3e2a10 95c933dbc8353ea70e38609fc9c321ec160f7622 bfae9dac5f4d4a77ae634c956a70cf7c80e6ed65
+
+Package: android-tools-mkbootimg
+Source: android-tools
+Version: 5.1.1.r38-1.1bookworm1
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 84
+Depends: libc6 (>= 2.34)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-mkbootimg_5.1.1.r38-1.1bookworm1_arm64.deb
+Size: 9844
+SHA256: 4338acf518b0c999fffde1af504666998634eee0d6e54475ecf38f20e5a27265
+SHA1: 859d50bd1f2052fa330869f75c957f62f38b5b4b
+MD5sum: 10f03c36b883a10593c17e7cef567e9c
+Description: Android tool to create Android boot images
+ Creates Android boot images that includes kernel image and ramdisk, in a
+ special format which can be used with fastboot.
+ .
+ This package provides the mkbootimg command-line tool.
+
+Package: android-tools-mkbootimg-dbgsym
+Source: android-tools
+Version: 5.1.1.r38-1.1bookworm1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 29
+Depends: android-tools-mkbootimg (= 5.1.1.r38-1.1bookworm1)
+Priority: optional
+Section: debug
+Filename: pool/main/a/android-tools/android-tools-mkbootimg-dbgsym_5.1.1.r38-1.1bookworm1_arm64.deb
+Size: 13764
+SHA256: 815b3ed791aba78712a129c5220914a76a46b298ee83036d60b964ae92fe36a9
+SHA1: cb1fd2b37142b1692fd4558bf960eb66b8e6401b
+MD5sum: 842e693a81401f063ea51e60c8633787
+Description: debug symbols for android-tools-mkbootimg
+Build-Ids: e1e92a04411b173b2c556ae94f713b9d4f14c5c9
+
+Package: arphost
+Version: 2:0.1bookworm1
+Architecture: arm64
+Maintainer: PDUSB <dev_pad@163.com>
+Installed-Size: 14620
+Depends: python3 (>= 3.4)
+Priority: optional
+Section: net
+Filename: pool/main/a/arphost/arphost_0.1bookworm1_arm64.deb
+Size: 7340652
+SHA256: 1c42b692fc87b36cc4fc9522b1ab12810f2f414489ca35956d17516d02bdba86
+SHA1: f1e4855db84defdf6d3e57d30b4a1be046ad2629
+MD5sum: 018eac63935294ba01aa7d81824e3bc5
+Description: Python service to discover LAN hostname by arp frame
+ Send arp fram with hostname
+ Parse arp frame to extract hostname
+ Write hostname to /etc/hosts
+
+Package: pdusb-usb-networking
+Version: 0.0.4bookworm1
+Architecture: all
+Maintainer: PDUSB <dev_pad@163.com>
+Installed-Size: 24
+Depends: network-manager
+Breaks: mobian-tweaks-common (<< 0.5.2~)
+Replaces: mobian-tweaks-common (<< 0.5.2~)
+Homepage: https://www.pdusb.com
+Priority: optional
+Section: network
+Filename: pool/main/p/pdusb-usb-networking/pdusb-usb-networking_0.0.4bookworm1_all.deb
+Size: 4664
+SHA256: 83f2e7f7569b578ff9436131bcc5d419101b222854ba341987e81d11f9fdc3a7
+SHA1: aa8a404ef3ebb41daa10156aa3487bda4ca01a2b
+MD5sum: 13d2a5edc9fa93b4cb293268739f0a3e
+Description: Default USB networking configuration for mobile devices
+ This package provides configuration files and scripts for setting up
+ networking using USB gadget on mobile devices.
+
+Package: wsdd
+Version: 2:0.7.0-2.1bookworm1
+Architecture: all
+Maintainer: Matthew Grant <matt@mattgrant.net.nz>
+Installed-Size: 111
+Depends: python3 (>= 3.6)
+Homepage: https://github.com/christgau/wsdd
+Priority: optional
+Section: net
+Filename: pool/main/w/wsdd/wsdd_0.7.0-2.1bookworm1_all.deb
+Size: 33652
+SHA256: 8e8d032bce92de13189eff9d1a7e6ff5a20b50261b50876be3bbdc16341644b5
+SHA1: 81e86db26546fed9b6aee98d9952e38a655aa926
+MD5sum: 2394751b540d5f0066e5b39291ec572a
+Description: Python Web Services Discovery Daemon, Windows Net Browsing
+ This daemon is used to announce Linux Hosts to Windows 7+ computers for
+ use in their File Manager network browsing, by using the Windows
+ Services Discovery Protocol.
+ .
+ This protocol is a local network segment procotol, which is multicasted
+ on udp/3072, and incoming on tcp/5357 on the 239.255.255.250/ff02::c
+ multicast addresses.  It DOES have security issues, but it is designed
+ for use in a trusted environment inside a firewall.
+ .
+ Its quite useful for Samba, taking over from WINS and the Samba nmbd
+ daemon.  Installing this restores the Network browsing functionality to
+ Windows 7+ Samba clients.
+

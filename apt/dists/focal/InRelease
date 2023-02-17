@@ -1,0 +1,65 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: PDUSB
+Label: USB PC source
+Codename: focal
+Date: Fri, 17 Feb 2023 00:49:00 UTC
+Architectures: arm64 amd64 riscv64
+Components: main
+Description: Utils packages from PDUSB
+MD5Sum:
+ 3398a65095f9c361643ee5c266cc24b3 28455 main/binary-arm64/Packages
+ faa10f126b12e018969b382ad9a59cf9 7324 main/binary-arm64/Packages.gz
+ 55d91beb5cb3cd69738889b453f5fe30 110 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+ c64957e65d72f304b8ba67db74c143fe 231464 main/binary-amd64/Packages
+ e2f9d8bead5bc9880b3116c0c4b6423b 43605 main/binary-amd64/Packages.gz
+ 3c378bea46d0f72a2261a9a9546d9169 110 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ df18f63b501a3ba447cf557e7ac7cbb0 24887 main/binary-riscv64/Packages
+ 3ec8ae4cab98d8a8eb9978f7f0ea763d 6127 main/binary-riscv64/Packages.gz
+ 3f5c20119cfbc3d7e5a1e0bace8dba5f 112 main/binary-riscv64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-riscv64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-riscv64/Packages.gz
+SHA1:
+ 043cec1654b836ff8b36df2c2b1f624577f436f5 28455 main/binary-arm64/Packages
+ e168d4b769641db6b36dfa89db95a18a1c362aaa 7324 main/binary-arm64/Packages.gz
+ 01bf37c0b8cf0c5323e8752e495d5d4d5805a824 110 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+ 6f585de413680b3d038c9532a453740fd0db282e 231464 main/binary-amd64/Packages
+ 41e341178c2e58e49a2cfe05903426609c4fce66 43605 main/binary-amd64/Packages.gz
+ 2592912399a0ec038dea2df67479e53dd867e719 110 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ 89b4b91894b64394aed01561f927cf5f37d49486 24887 main/binary-riscv64/Packages
+ fca998e01f6c2dd0960134f133e771065fd31653 6127 main/binary-riscv64/Packages.gz
+ 1baeb69d6fea462817503708af131b4e81924f54 112 main/binary-riscv64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-riscv64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-riscv64/Packages.gz
+SHA256:
+ 4b250d34643ddc2a0cd5c18d75752f66ad650e511ad170b387922c38e33cb4b7 28455 main/binary-arm64/Packages
+ 7e42444b29e0bd92ce8a9d0ff96b28bfa4e1fe1b3ab0d97e1e5391b7e6143744 7324 main/binary-arm64/Packages.gz
+ 56b2b83434d691b0a3d70ea04eb0e2c9056d39103a88773849ce482e8f91c0c2 110 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+ 41dd35d0e9d655b2b0236f114e32bc098d3a4e1fb34bbf9d0b4bf88da931bf85 231464 main/binary-amd64/Packages
+ 71c208b80311061ae0e95d6b14e5ea1a7e0cba40051409d878fae8ebe98797b1 43605 main/binary-amd64/Packages.gz
+ 7accb92fdd4a22dd7ea91a32d0d6472673fa674ec3b5a5714f99ce0297f4d24d 110 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ 1fb49f5457d48f1326bc7fa6f363d1290b9fe99b01254f091a5000bc6a219d06 24887 main/binary-riscv64/Packages
+ 585f6ef22b8bacf12e6012dcd3f25637714cab704c4ea980df4f91385dc062ed 6127 main/binary-riscv64/Packages.gz
+ 0a0ba2b45ddf3a23624863ad6e98892b0ee101f1df472af30087d011c8358bed 112 main/binary-riscv64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-riscv64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-riscv64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEAREIAB0WIQQPCK64M5PxTbu8LSP0IOWHSyaUPAUCY+7O/AAKCRD0IOWHSyaU
+PAjUAP9pmiRHKZzYRCe5LIj98ovHHiMxfFoG4jcKlcBcs7dX7gEAkPL3hYnXQg0o
+zAc7GrvrXeVt6pQogmURuHhjtNMx8MI=
+=hyb4
+-----END PGP SIGNATURE-----

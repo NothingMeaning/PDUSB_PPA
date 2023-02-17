@@ -1,0 +1,224 @@
+Package: android-tools-adbd
+Source: android-tools
+Version: 5.1.1.r38-1.1bionic1
+Architecture: amd64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 144
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.17), libssl1.1 (>= 1.1.0)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-adbd_5.1.1.r38-1.1bionic1_amd64.deb
+Size: 57384
+SHA256: e82f6198c11a05c17fba278510162b3534d86df5e9d0e02c46606c01b1266a14
+SHA1: 10d612264cf75ba96a36621a434a450be51e79dc
+MD5sum: 0fb2e1f43c0ec8a3ac7b991b0d50c2ed
+Description: Android Debug Bridge daemon
+ Android Debug Bridge (adb) is a versatile tool that lets you manage the state
+ of an emulator instance or Android-powered device. It is a client-server
+ program that includes three components:
+ .
+ A client, which runs on your development machine. You can invoke a
+ client from a shell by issuing an adb command. Other Android tools such
+ as the ADT plugin and DDMS also create adb clients.
+ .
+ A server, which runs as a background process on your development
+ machine.  The server manages communication between the client and the
+ adb daemon running on an emulator or device.
+ .
+ A daemon, which runs as a background process on each emulator or device
+ instance.
+ .
+ This package provides the daemon component.
+
+Package: android-tools-fsutils
+Source: android-tools
+Version: 5.1.1.r38-1.1bionic1
+Architecture: amd64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 316
+Depends: libc6 (>= 2.14), libpcre3, zlib1g (>= 1:1.2.3.4)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-fsutils_5.1.1.r38-1.1bionic1_amd64.deb
+Size: 73504
+SHA256: 1a82395f0a7bbd1ce8f9dcabe2dc16bee9bef853f2d900591fc64e5f1b23d736
+SHA1: 707763fe638682b737cc16182cc4a4783826fd9e
+MD5sum: 521c4cc26b421a5536b961fb81b4bc29
+Description: Android ext4 utilities with sparse support
+ Android images (.img) are typically ext4 filesystems in a special
+ sparse file format.  These are tools to help make that format.
+ .
+ This package provides the utilities to deal with Android sparse ext4
+ images.
+
+Package: android-tools-mkbootimg
+Source: android-tools
+Version: 5.1.1.r38-1.1bionic1
+Architecture: amd64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 35
+Depends: libc6 (>= 2.4)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-mkbootimg_5.1.1.r38-1.1bionic1_amd64.deb
+Size: 13372
+SHA256: 76b957743c3c8fa712aa1def4a354616bb168c81c5e95624b6ebcc117ccd83d9
+SHA1: a641fc17cae393172758a1e7a7858ecb074e43d3
+MD5sum: 4db2be49bbb51410081f2ed27a1f17a4
+Description: Android tool to create Android boot images
+ Creates Android boot images that includes kernel image and ramdisk, in a
+ special format which can be used with fastboot.
+ .
+ This package provides the mkbootimg command-line tool.
+
+Package: autoconf2.69
+Version: 2.69-3bionic1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1797
+Depends: m4, debianutils (>= 1.8), autoconf, perl, libfile-temp-perl
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/a/autoconf2.69/autoconf2.69_2.69-3bionic1_all.deb
+Size: 282976
+SHA256: 9e624b9a2ef7d4cb1fe611b536a962c0bccc55f3812bbac1058c6cae9eed3cd6
+SHA1: 218e6a0bfc06823dcda358402697ce9265de1b23
+MD5sum: c01ac1f221a2edf06726b96c3e640160
+Description: automatic configure script builder (obsolete version)
+ This obsolete version is required to build GCC (>= 8), newlib,
+ and probably some other toolchain related packages.
+
+Package: pdusb-usb-networking
+Version: 0.0.4bionic1
+Architecture: all
+Maintainer: PDUSB <dev_pad@163.com>
+Installed-Size: 24
+Depends: network-manager
+Breaks: mobian-tweaks-common (<< 0.5.2~)
+Replaces: mobian-tweaks-common (<< 0.5.2~)
+Homepage: https://www.pdusb.com
+Priority: optional
+Section: network
+Filename: pool/main/p/pdusb-usb-networking/pdusb-usb-networking_0.0.4bionic1_all.deb
+Size: 4664
+SHA256: f9cd3c02bf2adfaafd83a358ec9d55c949e804c2b258a84627617f4c6472ffea
+SHA1: 667b6b0797741c7543fd6a2bdbeeaa8702200a61
+MD5sum: 75d80018dfa4d0462a0adfef43edb2ce
+Description: Default USB networking configuration for mobile devices
+ This package provides configuration files and scripts for setting up
+ networking using USB gadget on mobile devices.
+
+Package: python-dev-is-python2
+Source: what-is-python (9bionic1)
+Version: 2.7.18-9bionic1
+Architecture: all
+Maintainer: Matthias Klose  <doko@debian.org>
+Installed-Size: 15
+Depends: python-is-python2 (= 2.7.18-9bionic1), python2-dev
+Breaks: python-dev, python-dev-is-python2-but-deprecated, python-dev-is-python3
+Replaces: python-dev, python-dev-is-python2-but-deprecated, python-dev-is-python3
+Provides: python-dev (= 2.7.18-2)
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Filename: pool/main/w/what-is-python/python-dev-is-python2_2.7.18-9bionic1_all.deb
+Size: 1516
+SHA256: bbd35218b031e734846fa3ba0e785c466b47d66f35ce5620b196417c072cf542
+SHA1: 90c835b3edc766f85b5d307f2f0a0bd2e90a8704
+MD5sum: 54bfaa6733dc36f1ad20108c96220010
+Description: symlinks /usr/bin/python-config to the DEPRECATED python2-config
+ Starting with the Debian 11 (bullseye) and Ubuntu 20.04 LTS (focal)
+ releases, all python packages use explicit python3 or python2
+ interpreter and do not use unversioned /usr/bin/python-config at all. Some
+ third-party code may still be python2 based, yet may use
+ /usr/bin/python-config.
+ .
+ This is a convenience package which ships a symlink to point
+ the /usr/bin/python-config script at the current default python2.
+ It may improve compatibility with obsolete 3rd-party software,
+ whilst breaking some modern software.
+ .
+ This package will be installed upon upgrades to Debian 11 (bullseye)
+ and Ubuntu 20.04, if the DEPRECATED python2 was installed.
+ .
+ python2 is DEPRECATED and will not be provided in future Debian and
+ Ubuntu releases. It is recommended to remove python2 and this package
+ after ensuring that only python3 is in use.
+ .
+ No packages may declare dependencies on this package, or recommend
+ that package.
+Cnf-Ignore-Commands: python-config
+
+Package: python-is-python2
+Source: what-is-python (9bionic1)
+Version: 2.7.18-9bionic1
+Architecture: all
+Maintainer: Matthias Klose  <doko@debian.org>
+Installed-Size: 13
+Depends: python2
+Breaks: python, python-is-python2-but-deprecated, python-is-python3, python-minimal
+Replaces: python, python-is-python2-but-deprecated, python-is-python3, python-minimal
+Provides: python (= 2.7.18-2)
+Multi-Arch: allowed
+Priority: optional
+Section: oldlibs
+Filename: pool/main/w/what-is-python/python-is-python2_2.7.18-9bionic1_all.deb
+Size: 3012
+SHA256: c471fb047d8cf2ab5caec435b6a58aa2e54f02fb7f7a048e7cfbd343c20cc03f
+SHA1: 432b4b111e4cab017551c01dc0a21a1c50886658
+MD5sum: 316525ed547c11f6b945044fa881a3b3
+Description: symlinks /usr/bin/python to the DEPRECATED python2
+ Starting with the Debian 11 (bullseye) and Ubuntu 20.04 LTS (focal)
+ releases, all python packages use explicit python3 or python2
+ interpreter and do not use unversioned /usr/bin/python at all. Some
+ third-party code may still be python2 based, yet may use
+ /usr/bin/python.
+ .
+ This is a convenience package which ships a symlink to point
+ /usr/bin/python interpreter at the current default python2. It may
+ improve compatibility with obsolete 3rd-party software, whilst
+ breaking some modern software.
+ .
+ This package will be installed upon upgrades to Debian 11 (bullseye)
+ and Ubuntu 20.04, if the DEPRECATED python2 was installed.
+ .
+ python2 is DEPRECATED and will not be provided in future Debian and
+ Ubuntu releases. It is recommended to remove python2 and this package
+ after ensuring that only python3 is in use.
+ .
+ No packages may declare dependencies on this package, or recommend
+ that package.
+Cnf-Ignore-Commands: python
+
+Package: wsdd
+Version: 2:0.7.0-2.1bionic1
+Architecture: all
+Maintainer: Matthew Grant <matt@mattgrant.net.nz>
+Installed-Size: 112
+Depends: python3 (>= 3.6)
+Homepage: https://github.com/christgau/wsdd
+Priority: optional
+Section: net
+Filename: pool/main/w/wsdd/wsdd_0.7.0-2.1bionic1_all.deb
+Size: 33320
+SHA256: 94e567c70a3858377961a6d6b279c291200ce219ecde7f2054b9599f4a9dc254
+SHA1: b0e502f7ade7140aafb60902bfab83a6afb29264
+MD5sum: b42fad4b39d4c552ab5818f466c35c50
+Description: Python Web Services Discovery Daemon, Windows Net Browsing
+ This daemon is used to announce Linux Hosts to Windows 7+ computers for
+ use in their File Manager network browsing, by using the Windows
+ Services Discovery Protocol.
+ .
+ This protocol is a local network segment procotol, which is multicasted
+ on udp/3072, and incoming on tcp/5357 on the 239.255.255.250/ff02::c
+ multicast addresses.  It DOES have security issues, but it is designed
+ for use in a trusted environment inside a firewall.
+ .
+ Its quite useful for Samba, taking over from WINS and the Samba nmbd
+ daemon.  Installing this restores the Network browsing functionality to
+ Windows 7+ Samba clients.
+

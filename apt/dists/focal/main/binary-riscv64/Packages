@@ -1,0 +1,599 @@
+Package: autoconf2.69
+Version: 2.69-3focal1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1797
+Depends: m4, debianutils (>= 1.8), autoconf, perl, libfile-temp-perl
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/a/autoconf2.69/autoconf2.69_2.69-3focal1_all.deb
+Size: 282912
+SHA256: 6817c1b1c6e62c5a3dd58e9b5ed8708b56c7a3448ffbbd3b685e7d4214180982
+SHA1: 992670bc2cf01465b98f67ee700d9bac372e56b8
+MD5sum: 2e4b01a824d3289f061c2c6224e5dcc1
+Description: automatic configure script builder (obsolete version)
+ This obsolete version is required to build GCC (>= 8), newlib,
+ and probably some other toolchain related packages.
+
+Package: clang-13-doc
+Source: llvm-toolchain-13
+Version: 1:13.0.1-2ubuntu2.1focal1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 7856
+Depends: libjs-mathjax
+Homepage: https://www.llvm.org/
+Priority: optional
+Section: doc
+Filename: pool/main/l/llvm-toolchain-13/clang-13-doc_13.0.1-2ubuntu2.1focal1_all.deb
+Size: 1106856
+SHA256: 19252bbf92df59e76efac7c6f732078026c07b3a23717e18dd1b51f8f348d2fa
+SHA1: 385e8b0377dc0d1eaa53c9eb6c36f08c54bc957f
+MD5sum: 65e57657f6e8d8268b400b86fe0d7019
+Description: C, C++ and Objective-C compiler - Documentation
+ Clang project is a C, C++, Objective C and Objective C++ front-end
+ based on the LLVM compiler. Its goal is to offer a replacement to the
+ GNU Compiler Collection (GCC).
+ .
+ Clang implements all of the ISO C++ 1998, 11, 14 and 17 standards and also
+ provides most of the support of C++20.
+ .
+ This package contains the documentation.
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+
+Package: cpp-11-doc
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 534
+Depends: gcc-11-base (>= 11)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-11/cpp-11-doc_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 175712
+SHA256: 23cfcd884c0b3719713ed0a6b7c8bde91fbd2bb4675ac1e217c1b8e1688e952c
+SHA1: 216d8e4e7f60d446b3d6c5adb29b38b031c7add3
+MD5sum: a1869742dd77b750705ce7def54cecff
+Description: Documentation for the GNU C preprocessor (cpp)
+ Documentation for the GNU C preprocessor in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: cpp-12-doc
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 535
+Depends: gcc-12-base (>= 12)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-12/cpp-12-doc_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 176028
+SHA256: 6e33dd877e83e91540bfdda8338c1d62fadf69ba0e9ab1fc0adef73f821c5f21
+SHA1: d91bf7093757cce41f645974cebdc8c343a49c74
+MD5sum: a5ff160de9da411fbe474165359605dd
+Description: Documentation for the GNU C preprocessor (cpp)
+ Documentation for the GNU C preprocessor in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-11-doc
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10720
+Depends: gcc-11-base (>= 11)
+Conflicts: gcc-docs (<< 2.95.2)
+Replaces: gcc (<= 2.7.2.3-4.3), gcc-docs (<< 2.95.2)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-11/gcc-11-doc_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 2648444
+SHA256: 62b76eae458af71c921187c31917ea9759b15fd7688b52ffe396d418f09089f3
+SHA1: b819e2043bde5c561ca792d9f7c758728e9833d8
+MD5sum: f7289b0dfe94dda406653ea52c3dd1e8
+Description: Documentation for the GNU compilers (gcc, gobjc, g++)
+ Documentation for the GNU compilers in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-11-locales
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 12130
+Depends: gcc-11-base (>= 11), cpp-11 (>= 11)
+Recommends: gcc-11 (>= 11)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-11/gcc-11-locales_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 1713776
+SHA256: 437dcb79a733da99d54c15165b92eb22468598cb16bbb7ca238657b7488cc496
+SHA1: 13788b7324a0779f716d40f48eb9d7a35174344b
+MD5sum: fe943b62b6eab412f94ccaae35e6a26c
+Description: GCC, the GNU compiler collection (native language support files)
+ Native language support for GCC. Lets GCC speak your language,
+ if translations are available.
+ .
+ Please do NOT submit bug reports in other languages than "C".
+ Always reset your language settings to use the "C" locales.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-11-source
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 85396
+Depends: make, quilt, patchutils, sharutils, gawk, lsb-release, time, m4, libtool, autoconf
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-11/gcc-11-source_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 83504788
+SHA256: 8880202bfae319210b31794753eb94948b0f365a50253ef52e68b13cfe2bfd22
+SHA1: a029f5c3a3f13353c6b6cee47873218180e69e01
+MD5sum: 75bad398689b57b7f21cf400b023aa22
+Description: Source of the GNU Compiler Collection
+ This package contains the sources and patches which are needed to
+ build the GNU Compiler Collection (GCC).
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-12-doc
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10910
+Depends: gcc-12-base (>= 12)
+Conflicts: gcc-docs (<< 2.95.2)
+Replaces: gcc (<= 2.7.2.3-4.3), gcc-docs (<< 2.95.2)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-12/gcc-12-doc_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 2693304
+SHA256: ec1c89dcfaaa6b34552129d460d9ae7608bb49963698bdfa7a991b1b47e545a7
+SHA1: e6fee7ecb345d18a8bbb44b07982a7d597ba410f
+MD5sum: ad2a40ab5cf2d26f46f4c5c8e96af01f
+Description: Documentation for the GNU compilers (gcc, gobjc, g++)
+ Documentation for the GNU compilers in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-12-locales
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 12408
+Depends: gcc-12-base (>= 12), cpp-12 (>= 12)
+Recommends: gcc-12 (>= 12)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-12/gcc-12-locales_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 1823760
+SHA256: 4dd90ccdb361be5de44ebb3df74ae79a82921223c19cdca5e7946110b1712dbb
+SHA1: 96a547ce28065b8ae8b166c9cf8b0c895bb8de06
+MD5sum: e779358559d3d0cf94df68a7343c50ff
+Description: GCC, the GNU compiler collection (native language support files)
+ Native language support for GCC. Lets GCC speak your language,
+ if translations are available.
+ .
+ Please do NOT submit bug reports in other languages than "C".
+ Always reset your language settings to use the "C" locales.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-12-source
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 103856
+Depends: make, quilt, patchutils, sharutils, gawk, lsb-release, time, m4, libtool, autoconf
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-12/gcc-12-source_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 85896328
+SHA256: b3fcfd745ee41ad1733de69afe7c8c549122b6c8e880d117a6e6531da4d50b1f
+SHA1: 1abd3e8a9aa518ad23c7b4d723952b394fd57a7b
+MD5sum: ea51032e93958c501236da131866f794
+Description: Source of the GNU Compiler Collection
+ This package contains the sources and patches which are needed to
+ build the GNU Compiler Collection (GCC).
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gccgo-11-doc
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 132
+Depends: gcc-11-base (>= 11)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-11/gccgo-11-doc_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 51916
+SHA256: fd9ed093019c7074f054a9e213e78e1400bcdf2ff4c79f7420f7ce67beb4279c
+SHA1: b9b3765dcdef999ecda8352d78659e4dc28d4687
+MD5sum: c08dcfdc23b170a9933f6001c8af03c3
+Description: Documentation for the GNU Go compiler (gccgo)
+ Documentation for the GNU Go compiler in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gccgo-12-doc
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 132
+Depends: gcc-12-base (>= 12)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-12/gccgo-12-doc_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 51936
+SHA256: 3c4f4913ca29d8bbb42cd3ecdcb057dba2e5305fc99d05511c8ea380630813f1
+SHA1: e6f250f724ee147e60ee012fad5b3fabad348dfc
+MD5sum: b04b38606782bcfde5150b8e77356974
+Description: Documentation for the GNU Go compiler (gccgo)
+ Documentation for the GNU Go compiler in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gfortran-11-doc
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1823
+Depends: gcc-11-base (>= 11)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-11/gfortran-11-doc_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 385056
+SHA256: 1d3b80ab03bd0843995c04912065d4ff5d0facffba51ec7ca7ad0fb6c1ba55d0
+SHA1: 83422fa620fc2ef7fe9ed3f3aa3cc6d1b0fe34e8
+MD5sum: 65efd9af2931457b1dcec5c995aed3ac
+Description: Documentation for the GNU Fortran compiler (gfortran)
+ Documentation for the GNU Fortran compiler in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gfortran-12-doc
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1793
+Depends: gcc-12-base (>= 12)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-12/gfortran-12-doc_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 374752
+SHA256: d2b7d7ffcc37b6358c8f01bc69dce4f9be85483f3ff6af331846acbeaf72bd8a
+SHA1: c7cbb6d689e4b5708d3b545ef8d42b999e13f7f6
+MD5sum: ff7ceb360adb505cba1554734811dc16
+Description: Documentation for the GNU Fortran compiler (gfortran)
+ Documentation for the GNU Fortran compiler in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gnat-11-doc
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4334
+Suggests: gnat-11
+Conflicts: gnat-10-doc, gnat-4.9-doc, gnat-5-doc, gnat-6-doc, gnat-7-doc, gnat-8-doc, gnat-9-doc
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-11/gnat-11-doc_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 1055472
+SHA256: 37bfa5dc53bf0c2438aa4ec7ba3bb25eb447edcfd40a3a32aba5343f3b894aba
+SHA1: 9f51ea2cedaee0a4d6be761dadef53188551f9cb
+MD5sum: d1f24119009288d09d6519cb218e56c8
+Description: GNU Ada compiler (documentation)
+ GNAT is a compiler for the Ada programming language. It produces optimized
+ code on platforms supported by the GNU Compiler Collection (GCC).
+ .
+ The libgnat library provides runtime components needed by most
+ applications produced with GNAT.
+ .
+ This package contains the documentation in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gnat-12-doc
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4373
+Suggests: gnat-12
+Conflicts: gnat-10-doc, gnat-11-doc, gnat-4.9-doc, gnat-5-doc, gnat-6-doc, gnat-7-doc, gnat-8-doc, gnat-9-doc
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-12/gnat-12-doc_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 1068328
+SHA256: 1428aa6626d184c3f56a0801cd3bc9567dc06e01a52720a7c66d32d23be535e1
+SHA1: 945ffa2cee80b45cd399395d5e2162372b591346
+MD5sum: 33d2fc79fe1f94b2384b62467796c5ac
+Description: GNU Ada compiler (documentation)
+ GNAT is a compiler for the Ada programming language. It produces optimized
+ code on platforms supported by the GNU Compiler Collection (GCC).
+ .
+ The libgnat library provides runtime components needed by most
+ applications produced with GNAT.
+ .
+ This package contains the documentation in info format.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libclc-13
+Source: llvm-toolchain-13
+Version: 1:13.0.1-2ubuntu2.1focal1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 73455
+Depends: libclc-13-dev (= 1:13.0.1-2ubuntu2.1focal1), libclang-common-13-dev
+Conflicts: libclc-x.y
+Breaks: libclc-amdgcn, libclc-ptx, libclc-r600
+Replaces: libclc-amdgcn, libclc-ptx, libclc-r600, libclc-x.y
+Provides: libclc-x.y
+Multi-Arch: foreign
+Homepage: https://www.llvm.org/
+Priority: optional
+Section: libs
+Filename: pool/main/l/llvm-toolchain-13/libclc-13_13.0.1-2ubuntu2.1focal1_all.deb
+Size: 8644132
+SHA256: bc0891d1bf3e77691ddac644a046a54ed906b0b2ba0f05866cdec80916aff0b1
+SHA1: c29c69c0e32a773fa94471162ea980975c67a8ae
+MD5sum: ab89fa1099b30e28b7a0fc590bd7bd37
+Description: OpenCL C language implementation - platform support
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains support for the amdgcn (AMD GPU), PTX and r600
+ platforms.
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+
+Package: libclc-13-dev
+Source: llvm-toolchain-13
+Version: 1:13.0.1-2ubuntu2.1focal1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 459
+Conflicts: libclc-x.y-dev
+Breaks: libclc-dev
+Replaces: libclc-dev, libclc-x.y-dev
+Provides: libclc-x.y-dev
+Multi-Arch: foreign
+Homepage: https://www.llvm.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/l/llvm-toolchain-13/libclc-13-dev_13.0.1-2ubuntu2.1focal1_all.deb
+Size: 75432
+SHA256: ef05c788672bb8e8755e5881993954634ffada4ed47ea697698acffbc96429ff
+SHA1: 529394e77136394e4912e8d1ebbd1a08e7479f69
+MD5sum: cdba5902853847a0a1b759ba121aa161
+Description: OpenCL C language implementation - development files
+ libclc is an open implementation of the OpenCL C programming language,
+ as specified by the OpenCL 1.1 Specification.
+ .
+ This package contains development header files.
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+
+Package: libgccjit-11-doc
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 519
+Depends: gcc-11-base (= 11.3.0-1ubuntu1~22.04focal1)
+Conflicts: libgccjit-10-doc, libgccjit-5-doc, libgccjit-6-doc, libgccjit-7-doc, libgccjit-8-doc, libgccjit-9-doc
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-11/libgccjit-11-doc_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 270704
+SHA256: e09f69fa46a7e17726dc4bc1712cefc9f3d6cb8372b348c088d0a58525f3cc61
+SHA1: acf768c53961a3eb4b9d23ebc978313a385f5371
+MD5sum: c2466680a2984540af7d6a778870c378
+Description: GCC just-in-time compilation (documentation)
+ libgccjit provides an embeddable shared library with an API for adding
+ compilation to existing programs using GCC.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libgccjit-12-doc
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 524
+Depends: gcc-12-base (= 12.1.0-2ubuntu1~22.04focal1)
+Conflicts: libgccjit-10-doc, libgccjit-11-doc, libgccjit-5-doc, libgccjit-6-doc, libgccjit-7-doc, libgccjit-8-doc, libgccjit-9-doc
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-12/libgccjit-12-doc_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 275988
+SHA256: ea436ecbb759c3cbbaa0ddae2c69721639e51b05aa9a72e0eb1189cafeb63f56
+SHA1: b881bce7e56f9fe50e26d1e244b943885ef7b774
+MD5sum: 723961c04aa840d9ef6585f37c89e86b
+Description: GCC just-in-time compilation (documentation)
+ libgccjit provides an embeddable shared library with an API for adding
+ compilation to existing programs using GCC.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libstdc++-11-doc
+Source: gcc-11
+Version: 11.3.0-1ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 117401
+Depends: gcc-11-base (>= 11)
+Conflicts: libstdc++-10-doc, libstdc++-4.8-doc, libstdc++-4.9-doc, libstdc++-5-doc, libstdc++-6-doc, libstdc++-7-doc, libstdc++-8-doc, libstdc++-9-doc, libstdc++5-3.3-doc, libstdc++5-doc, libstdc++6-4.0-doc, libstdc++6-4.1-doc, libstdc++6-4.2-doc, libstdc++6-4.3-doc, libstdc++6-4.4-doc, libstdc++6-4.5-doc, libstdc++6-4.6-doc, libstdc++6-4.7-doc, libstdc++6-doc
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-11/libstdc++-11-doc_11.3.0-1ubuntu1~22.04focal1_all.deb
+Size: 9420612
+SHA256: 45a54ef9ba4e17da9ef47bec4ab0d094708f18da02eee9638594a654cb4fa2c4
+SHA1: 0a89416c17932151dbd0803da32ce483916651df
+MD5sum: ee2a167dae3016b4e49e364a0e061f00
+Description: GNU Standard C++ Library v3 (documentation files)
+ This package contains documentation files for the GNU stdc++ library.
+ .
+ One set is the distribution documentation, the other set is the
+ source documentation including a namespace list, class hierarchy,
+ alphabetical list, compound list, file list, namespace members,
+ compound members and file members.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libstdc++-12-doc
+Source: gcc-12
+Version: 12.1.0-2ubuntu1~22.04focal1
+Architecture: all
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 120937
+Depends: gcc-12-base (>= 12)
+Conflicts: libstdc++-10-doc, libstdc++-11-doc, libstdc++-4.8-doc, libstdc++-4.9-doc, libstdc++-5-doc, libstdc++-6-doc, libstdc++-7-doc, libstdc++-8-doc, libstdc++-9-doc, libstdc++5-3.3-doc, libstdc++5-doc, libstdc++6-4.0-doc, libstdc++6-4.1-doc, libstdc++6-4.2-doc, libstdc++6-4.3-doc, libstdc++6-4.4-doc, libstdc++6-4.5-doc, libstdc++6-4.6-doc, libstdc++6-4.7-doc, libstdc++6-doc
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-12/libstdc++-12-doc_12.1.0-2ubuntu1~22.04focal1_all.deb
+Size: 9687344
+SHA256: 948f629f5221fe71d65bec6505b4666f1bd667f8e828e1c8d65227fa8595fdce
+SHA1: 11cf1033c9ea291f83347625724e654cb80939b7
+MD5sum: bd9906c63571a7bb3866e7ec7cc9ffa7
+Description: GNU Standard C++ Library v3 (documentation files)
+ This package contains documentation files for the GNU stdc++ library.
+ .
+ One set is the distribution documentation, the other set is the
+ source documentation including a namespace list, class hierarchy,
+ alphabetical list, compound list, file list, namespace members,
+ compound members and file members.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: llvm-13-doc
+Source: llvm-toolchain-13
+Version: 1:13.0.1-2ubuntu2.1focal1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 35025
+Depends: libjs-jquery, libjs-underscore
+Homepage: https://www.llvm.org/
+Priority: optional
+Section: doc
+Filename: pool/main/l/llvm-toolchain-13/llvm-13-doc_13.0.1-2ubuntu2.1focal1_all.deb
+Size: 4558032
+SHA256: 71d3894e23b3850d5ab29098a51591687fe46656c259a5a10bc683586cbff003
+SHA1: eca149a0a2d441d14de39ffce664978a28d8c40b
+MD5sum: 018876bf1cda6225cc6e4ef34f54f47d
+Description: Modular compiler and toolchain technologies, documentation
+ LLVM is a collection of libraries and tools that make it easy to build
+ compilers, optimizers, just-in-time code generators, and many other
+ compiler-related programs.
+ .
+ LLVM uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package contains all documentation (extensive).
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+
+Package: llvm-13-examples
+Source: llvm-toolchain-13
+Version: 1:13.0.1-2ubuntu2.1focal1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 483
+Depends: llvm-13-dev (>= 1:13.0.1-2ubuntu2.1focal1), llvm-13-dev (<< 1:13.0.1-2ubuntu2.1focal1+c~)
+Homepage: https://www.llvm.org/
+Priority: optional
+Section: doc
+Filename: pool/main/l/llvm-toolchain-13/llvm-13-examples_13.0.1-2ubuntu2.1focal1_all.deb
+Size: 293476
+SHA256: 03d26ae599c7680a735ae690c1ed5f08ca9e3ae203e0d93231b7cf17a4175eeb
+SHA1: 9d77d546c6dc51cc2318f14bf95b81002f43816f
+MD5sum: 5c77d012c19030fe8930e53c6974bfb3
+Description: Modular compiler and toolchain technologies, examples
+ LLVM is a collection of libraries and tools that make it easy to build
+ compilers, optimizers, just-in-time code generators, and many other
+ compiler-related programs.
+ .
+ LLVM uses a single, language-independent virtual instruction set both
+ as an offline code representation (to communicate code between
+ compiler phases and to run-time systems) and as the compiler internal
+ representation (to analyze and transform programs). This persistent
+ code representation allows a common set of sophisticated compiler
+ techniques to be applied at compile-time, link-time, install-time,
+ run-time, or "idle-time" (between program runs).
+ .
+ This package contains examples for using LLVM, both in developing
+ extensions to LLVM and in using it to compile code.
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+
+Package: pdusb-usb-networking
+Version: 0.0.4focal1
+Architecture: all
+Maintainer: PDUSB <dev_pad@163.com>
+Installed-Size: 24
+Depends: network-manager
+Breaks: mobian-tweaks-common (<< 0.5.2~)
+Replaces: mobian-tweaks-common (<< 0.5.2~)
+Homepage: https://www.pdusb.com
+Priority: optional
+Section: network
+Filename: pool/main/p/pdusb-usb-networking/pdusb-usb-networking_0.0.4focal1_all.deb
+Size: 4660
+SHA256: 0d282454702c828bc7e71215378903eda4cf18f9577d26d2087f66f94c2c754a
+SHA1: 6462c86dc5d8d2f43e02e819dcdd936b686da1c5
+MD5sum: 4ef7a2bab29f81595c6878b69c1cdca0
+Description: Default USB networking configuration for mobile devices
+ This package provides configuration files and scripts for setting up
+ networking using USB gadget on mobile devices.
+
+Package: wsdd
+Version: 2:0.7.0-2.1focal1
+Architecture: all
+Maintainer: Matthew Grant <matt@mattgrant.net.nz>
+Installed-Size: 112
+Depends: python3 (>= 3.6)
+Homepage: https://github.com/christgau/wsdd
+Priority: optional
+Section: net
+Filename: pool/main/w/wsdd/wsdd_0.7.0-2.1focal1_all.deb
+Size: 33300
+SHA256: 09dd6840c1bde7ef5ac111f003465fdcfcceb88e3be62a26b386ee860049dfdb
+SHA1: 76e4e5d7a0b440db5663da94ddc2dd768ce39c99
+MD5sum: e7cad1940418c801df7a4ef3ba81ad42
+Description: Python Web Services Discovery Daemon, Windows Net Browsing
+ This daemon is used to announce Linux Hosts to Windows 7+ computers for
+ use in their File Manager network browsing, by using the Windows
+ Services Discovery Protocol.
+ .
+ This protocol is a local network segment procotol, which is multicasted
+ on udp/3072, and incoming on tcp/5357 on the 239.255.255.250/ff02::c
+ multicast addresses.  It DOES have security issues, but it is designed
+ for use in a trusted environment inside a firewall.
+ .
+ Its quite useful for Samba, taking over from WINS and the Samba nmbd
+ daemon.  Installing this restores the Network browsing functionality to
+ Windows 7+ Samba clients.
+

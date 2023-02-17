@@ -1,0 +1,55 @@
+Origin: PDUSB
+Label: USB PC source
+Codename: bookworm
+Date: Fri, 17 Feb 2023 00:49:00 UTC
+Architectures: arm64 amd64 riscv64
+Components: main
+Description: Utils packages from PDUSB
+MD5Sum:
+ 0866acd99c033ac3b3432cdefb23c96d 7851 main/binary-arm64/Packages
+ 534ad2700b30fb1055c8cdfe3cf9f504 2936 main/binary-arm64/Packages.gz
+ 55d91beb5cb3cd69738889b453f5fe30 110 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+ 6a89309b0fae52b1d9fd7b060a2eee46 7851 main/binary-amd64/Packages
+ cf3511e2b22d42b605402615f36dc352 2929 main/binary-amd64/Packages.gz
+ 3c378bea46d0f72a2261a9a9546d9169 110 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ 219da1d66e44a9c83c6fe4bf4eda764a 1903 main/binary-riscv64/Packages
+ 2460b76f8dcb5e6dff27f21d4f106876 1036 main/binary-riscv64/Packages.gz
+ 3f5c20119cfbc3d7e5a1e0bace8dba5f 112 main/binary-riscv64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-riscv64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-riscv64/Packages.gz
+SHA1:
+ 0247ea9ff73bf8e871182c31dd11681e55b810b2 7851 main/binary-arm64/Packages
+ 2f82294b568c780aa5851a86b185a5d965748dec 2936 main/binary-arm64/Packages.gz
+ 01bf37c0b8cf0c5323e8752e495d5d4d5805a824 110 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+ b8392da94315a6c1fc7635f418022c73a56439b2 7851 main/binary-amd64/Packages
+ 7e2d7508478ba54f09e6517fd05ca44659147847 2929 main/binary-amd64/Packages.gz
+ 2592912399a0ec038dea2df67479e53dd867e719 110 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ 38ba9da1e61ed33a9f0c627108599cc531876280 1903 main/binary-riscv64/Packages
+ 5a57579fb69f84d2db601338b09a4ba679f134c0 1036 main/binary-riscv64/Packages.gz
+ 1baeb69d6fea462817503708af131b4e81924f54 112 main/binary-riscv64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-riscv64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-riscv64/Packages.gz
+SHA256:
+ ff32b4a4022902f9fc6c1b38cf7a9886a450fbbd6f068d3fdbf7b55ccfc3e443 7851 main/binary-arm64/Packages
+ 3d961cabb04162ce6a8de91b247e50a8f96a9bbec3b99a21f513e8e4b380574e 2936 main/binary-arm64/Packages.gz
+ 56b2b83434d691b0a3d70ea04eb0e2c9056d39103a88773849ce482e8f91c0c2 110 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+ b029bfb78df78000dcf690ee6c8c4e05412d3d664f4cce88b737b9ef008f8cfd 7851 main/binary-amd64/Packages
+ 3ad6f108020a8a1c4879f20daba83e8187735ed07991c972001d7c1e194b4914 2929 main/binary-amd64/Packages.gz
+ 7accb92fdd4a22dd7ea91a32d0d6472673fa674ec3b5a5714f99ce0297f4d24d 110 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ d95943132a9e3389fae398e4040085db4c508e91872d655c7e2fdb559fba2481 1903 main/binary-riscv64/Packages
+ 57b166403c1cd63b75cf82f219f5c1401c173b4ca86e12bec14d3bb94984caa3 1036 main/binary-riscv64/Packages.gz
+ 0a0ba2b45ddf3a23624863ad6e98892b0ee101f1df472af30087d011c8358bed 112 main/binary-riscv64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-riscv64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-riscv64/Packages.gz

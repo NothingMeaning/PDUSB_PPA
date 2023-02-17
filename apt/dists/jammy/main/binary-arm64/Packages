@@ -1,0 +1,142 @@
+Package: android-tools-adbd
+Source: android-tools
+Version: 5.1.1.r38-1.1jammy1
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 132
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-adbd_5.1.1.r38-1.1jammy1_arm64.deb
+Size: 56408
+SHA256: b5a19ef5523f2fe97ee132433a7dc08d4eb76a04184d40336b2c01df0ce0e124
+SHA1: 0a96cab31ca6447e4f0ff74e8a7c7a822b0644be
+MD5sum: 8a4575121022fd8dc1d450c6c01550a7
+Description: Android Debug Bridge daemon
+ Android Debug Bridge (adb) is a versatile tool that lets you manage the state
+ of an emulator instance or Android-powered device. It is a client-server
+ program that includes three components:
+ .
+ A client, which runs on your development machine. You can invoke a
+ client from a shell by issuing an adb command. Other Android tools such
+ as the ADT plugin and DDMS also create adb clients.
+ .
+ A server, which runs as a background process on your development
+ machine.  The server manages communication between the client and the
+ adb daemon running on an emulator or device.
+ .
+ A daemon, which runs as a background process on each emulator or device
+ instance.
+ .
+ This package provides the daemon component.
+
+Package: android-tools-fsutils
+Source: android-tools
+Version: 5.1.1.r38-1.1jammy1
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 205
+Depends: libc6 (>= 2.34), libpcre3, zlib1g (>= 1:1.2.3.4)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-fsutils_5.1.1.r38-1.1jammy1_arm64.deb
+Size: 66548
+SHA256: 6055efc2fd572ca5a4ee97b5bece8d126bbb384852e605fc20b89ce8558d3bb5
+SHA1: dbff1e1d1b441f8522afb04d14230c943bc78e3d
+MD5sum: a1ec4bf2202b639c58bf54f508744690
+Description: Android ext4 utilities with sparse support
+ Android images (.img) are typically ext4 filesystems in a special
+ sparse file format.  These are tools to help make that format.
+ .
+ This package provides the utilities to deal with Android sparse ext4
+ images.
+
+Package: android-tools-mkbootimg
+Source: android-tools
+Version: 5.1.1.r38-1.1jammy1
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 35
+Depends: libc6 (>= 2.34)
+Homepage: https://www.pdusb.com
+Priority: extra
+Section: devel
+Filename: pool/main/a/android-tools/android-tools-mkbootimg_5.1.1.r38-1.1jammy1_arm64.deb
+Size: 13852
+SHA256: ec20170cdffbf506d35c6aa64414ef2775b203af9527d868e61c326b04512d08
+SHA1: fceca87ba1991c11e1f72cf8e264b218527ff4ca
+MD5sum: d2b9b30365d9348ee753991188517991
+Description: Android tool to create Android boot images
+ Creates Android boot images that includes kernel image and ramdisk, in a
+ special format which can be used with fastboot.
+ .
+ This package provides the mkbootimg command-line tool.
+
+Package: arphost
+Version: 2:0.1jammy1
+Architecture: arm64
+Maintainer: PDUSB <dev_pad@163.com>
+Installed-Size: 12544
+Depends: python3 (>= 3.4)
+Priority: optional
+Section: net
+Filename: pool/main/a/arphost/arphost_0.1jammy1_arm64.deb
+Size: 6315262
+SHA256: fd134de11b2c67a0b10e786ef2c1e66161c0e707af098a6950d5c209f175ffbe
+SHA1: 496b70a5b4a1b5c2bfc6532d6da365de88d11a95
+MD5sum: c654a781978c08a409a806b5f5422fae
+Description: Python service to discover LAN hostname by arp frame
+ Send arp fram with hostname
+ Parse arp frame to extract hostname
+ Write hostname to /etc/hosts
+
+Package: pdusb-usb-networking
+Version: 0.0.4jammy1
+Architecture: all
+Maintainer: PDUSB <dev_pad@163.com>
+Installed-Size: 25
+Depends: network-manager
+Breaks: mobian-tweaks-common (<< 0.5.2~)
+Replaces: mobian-tweaks-common (<< 0.5.2~)
+Homepage: https://www.pdusb.com
+Priority: optional
+Section: network
+Filename: pool/main/p/pdusb-usb-networking/pdusb-usb-networking_0.0.4jammy1_all.deb
+Size: 4588
+SHA256: 42bf0850486360fecd8fd3c295d6b181876aa814f8f873c6ca11d8150d30f165
+SHA1: feef33fac10ce45b24174ef23740239db003b530
+MD5sum: a39cd43542eec9566ee247df4842bb5e
+Description: Default USB networking configuration for mobile devices
+ This package provides configuration files and scripts for setting up
+ networking using USB gadget on mobile devices.
+
+Package: wsdd
+Version: 2:0.7.0-2.1jammy1
+Architecture: all
+Maintainer: Matthew Grant <matt@mattgrant.net.nz>
+Installed-Size: 112
+Depends: python3 (>= 3.6)
+Homepage: https://github.com/christgau/wsdd
+Priority: optional
+Section: net
+Filename: pool/main/w/wsdd/wsdd_0.7.0-2.1jammy1_all.deb
+Size: 34316
+SHA256: 50cf9a7da102b2995839c9beb60246455744b64df134e7c5aa1ce5976991d70d
+SHA1: 6a23b0cba9baf8eaebbf53f0d3c0f001fec41944
+MD5sum: d61196f2bdf5b18e282fc3516becb0cb
+Description: Python Web Services Discovery Daemon, Windows Net Browsing
+ This daemon is used to announce Linux Hosts to Windows 7+ computers for
+ use in their File Manager network browsing, by using the Windows
+ Services Discovery Protocol.
+ .
+ This protocol is a local network segment procotol, which is multicasted
+ on udp/3072, and incoming on tcp/5357 on the 239.255.255.250/ff02::c
+ multicast addresses.  It DOES have security issues, but it is designed
+ for use in a trusted environment inside a firewall.
+ .
+ Its quite useful for Samba, taking over from WINS and the Samba nmbd
+ daemon.  Installing this restores the Network browsing functionality to
+ Windows 7+ Samba clients.
+

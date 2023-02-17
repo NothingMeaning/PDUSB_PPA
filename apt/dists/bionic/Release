@@ -1,0 +1,40 @@
+Origin: PDUSB
+Label: USB PC source
+Codename: bionic
+Date: Fri, 17 Feb 2023 00:49:00 UTC
+Architectures: arm64 amd64
+Components: main
+Description: Utils packages from PDUSB
+MD5Sum:
+ 1c2433815e22ff9006e250b6c97ec06f 9085 main/binary-arm64/Packages
+ ecc20c02f1eba46afe1226e1abea8725 3246 main/binary-arm64/Packages.gz
+ 55d91beb5cb3cd69738889b453f5fe30 110 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+ 778ef030ff10a24001387496f503dfa0 9084 main/binary-amd64/Packages
+ edcddd2cf3c758bcf306695a856ff90f 3256 main/binary-amd64/Packages.gz
+ 3c378bea46d0f72a2261a9a9546d9169 110 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+SHA1:
+ 7411f6e09d8b1c3edd3947d2f21f6e7d0fd40d22 9085 main/binary-arm64/Packages
+ e95c5027c6c6d501795d5c7f8d652c433005fd65 3246 main/binary-arm64/Packages.gz
+ 01bf37c0b8cf0c5323e8752e495d5d4d5805a824 110 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+ 493c2de6f3702f3f12bc94a2232d16a811a67b99 9084 main/binary-amd64/Packages
+ e282ba7ad9e81ca799fd7de42357a8913fa39084 3256 main/binary-amd64/Packages.gz
+ 2592912399a0ec038dea2df67479e53dd867e719 110 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+SHA256:
+ 3419df47ad93d79dc7c5a5710d83eb0076b83fba44fdab804c1f5dfe91edc9b8 9085 main/binary-arm64/Packages
+ fe6af41bba712c98e8b11598f07ad45465b99228ec3992f6ff25165dc74bb44a 3246 main/binary-arm64/Packages.gz
+ 56b2b83434d691b0a3d70ea04eb0e2c9056d39103a88773849ce482e8f91c0c2 110 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+ 88dff5ba2c0ea4087b3e8ced9dbc44a510f84c93d3fe02bc91606bc798423cfc 9084 main/binary-amd64/Packages
+ 12a638218d9eb8d8c11eb79d5f209d4a357524f70bf231e4eb40936b7f3282e2 3256 main/binary-amd64/Packages.gz
+ 7accb92fdd4a22dd7ea91a32d0d6472673fa674ec3b5a5714f99ce0297f4d24d 110 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
